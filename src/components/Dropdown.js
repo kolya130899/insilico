@@ -1,13 +1,12 @@
 import React from "react";
-import { useFetchHook } from "../hooks/useFetchHook";
 
-import { URL } from "../url";
+import { City } from "../data/data/city";
 
-export const Dropdown = () => {
-  const { state } = useFetchHook(URL.CITIES);
+export const Dropdown = ({ onChange }) => {
   return (
-    <select>
-      {state.map(item => (
+    <select onChange={e => onChange(e)}>
+      <option id="all">All</option>
+      {City.map(item => (
         <option key={item.id}>{item.name}</option>
       ))}
     </select>

@@ -1,16 +1,20 @@
 import React from "react";
-import { useFetchHook } from "../hooks/useFetchHook";
 
-import { URL } from "../url";
-
-export const CategoriesList = () => {
-  const { state } = useFetchHook(URL.CATEGORY);
+export const CategoriesList = ({ onCheck, Category, count }) => {
   return (
     <ul className="categories">
-      {state.map(item => (
+      {Category.map(item => (
         <li key={item.id}>
-          <input type="checkbox"></input>
-          <span>{item.name}</span>
+          <input
+            className="styled-checkbox"
+            id={`${item.id}`}
+            type="checkbox"
+            onChange={e => onCheck(e)}
+          ></input>
+          <label htmlFor={`${item.id}`}>
+            <span>{item.name}</span>
+            <span className="goods-quantity">{`(${count(item.id)})`}</span>
+          </label>
         </li>
       ))}
     </ul>
