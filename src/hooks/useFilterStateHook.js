@@ -24,7 +24,6 @@ export const useFilterStateHook = CITY_IDS => {
 
   const onCheck = e => {
     const id = Number(e.target.id);
-    console.log(e.target.checked);
     if (filterState.category.indexOf(id) < 0) {
       setFilterState({
         ...filterState,

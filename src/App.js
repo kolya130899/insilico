@@ -22,6 +22,9 @@ export default function App() {
 
   return (
     <div className="container">
+      <header>
+        <section className="logo"></section>        
+      </header>
       <input className="switcher" type="checkbox" id="menu" />
       <label htmlFor="menu" className="open">
         <img src={open} alt="open-img" className="open" />
@@ -34,7 +37,7 @@ export default function App() {
         </label>
       </nav>
 
-      <GoodsContainer {...{ filteredData }} />
+      <GoodsContainer {...{ filteredData, filterState }} />
     </div>
   );
 }
