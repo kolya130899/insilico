@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/insilico/static/css/main.00940c77.chunk.css",
+    "main.js": "/insilico/static/js/main.a88fb43c.chunk.js",
+    "main.js.map": "/insilico/static/js/main.a88fb43c.chunk.js.map",
+    "runtime-main.js": "/insilico/static/js/runtime-main.3b17fa5d.js",
+    "runtime-main.js.map": "/insilico/static/js/runtime-main.3b17fa5d.js.map",
+    "static/js/2.b20fa4a0.chunk.js": "/insilico/static/js/2.b20fa4a0.chunk.js",
+    "static/js/2.b20fa4a0.chunk.js.map": "/insilico/static/js/2.b20fa4a0.chunk.js.map",
+    "index.html": "/insilico/index.html",
+    "precache-manifest.c02803dd3e098aae8f079f7a721168c3.js": "/insilico/precache-manifest.c02803dd3e098aae8f079f7a721168c3.js",
+    "service-worker.js": "/insilico/service-worker.js",
+    "static/css/main.00940c77.chunk.css.map": "/insilico/static/css/main.00940c77.chunk.css.map",
+    "static/js/2.b20fa4a0.chunk.js.LICENSE.txt": "/insilico/static/js/2.b20fa4a0.chunk.js.LICENSE.txt",
+    "static/media/style.scss": "/insilico/static/media/card-bg3.dc29500b.png",
+    "static/media/open-toggler.png": "/insilico/static/media/open-toggler.bfee8bc6.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3b17fa5d.js",
+    "static/js/2.b20fa4a0.chunk.js",
+    "static/css/main.00940c77.chunk.css",
+    "static/js/main.a88fb43c.chunk.js"
+  ]
+}
