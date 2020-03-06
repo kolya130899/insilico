@@ -23,7 +23,7 @@ export default function App() {
   return (
     <div className="container">
       <header>
-        <section className="logo"></section>        
+        <section className="logo"></section>
       </header>
       <input className="switcher" type="checkbox" id="menu" />
       <label htmlFor="menu" className="open">
